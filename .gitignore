@@ -1,0 +1,9 @@
+aspnet_client
+cache
+compile
+lib
+images
+php.ini
+web.config
+scripts
+styles
