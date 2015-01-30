@@ -16,15 +16,15 @@ set_include_path(
 // whenever i upload this file to the server, i have to comment the above and uncomment the below.
 // TODO:  i should fix this in my local dev environment so it matches what godaddy is doing.
 
-// set_include_path(
-//   get_include_path() . PATH_SEPARATOR .
-//   $_SERVER['DOCUMENT_ROOT']."/kiblerdude/lib/smarty" . PATH_SEPARATOR .
-//   $_SERVER['DOCUMENT_ROOT']."/kiblerdude/lib/spyc-0.5" . PATH_SEPARATOR .
-//   $_SERVER['DOCUMENT_ROOT']."/kiblerdude/lib/markdown" . PATH_SEPARATOR .  
-//   $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/kernel" . PATH_SEPARATOR .
-//   $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/service" . PATH_SEPARATOR .
-//   $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/filter" . PATH_SEPARATOR .
-//   $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/handler");
+set_include_path(
+  get_include_path() . PATH_SEPARATOR .
+  $_SERVER['DOCUMENT_ROOT']."/kiblerdude/lib/smarty" . PATH_SEPARATOR .
+  $_SERVER['DOCUMENT_ROOT']."/kiblerdude/lib/spyc-0.5" . PATH_SEPARATOR .
+  $_SERVER['DOCUMENT_ROOT']."/kiblerdude/lib/markdown" . PATH_SEPARATOR .  
+  $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/core" . PATH_SEPARATOR .
+  $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/models" . PATH_SEPARATOR .
+  $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/service" . PATH_SEPARATOR .
+  $_SERVER['DOCUMENT_ROOT']."/kiblerdude/src/resources");
 
 require_once("Core.php");
 
