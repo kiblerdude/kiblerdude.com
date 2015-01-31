@@ -7,9 +7,14 @@
     <loc>http://www.kiblerdude.com/songs</loc> 
   </url>  
   <url> 
-    <loc>http://www.kiblerdude.com/Oregon_Trail_Death</loc> 
+    <loc>http://www.kiblerdude.com/projects</loc> 
   </url>
   <url> 
-    <loc>http://www.kiblerdude.com/Oregon_Trail_Disease</loc> 
-  </url>    
+    <loc>http://www.kiblerdude.com/blog</loc> 
+  </url>
+{foreach from=$blogLinks item=link}
+  <url> 
+    <loc>http://www.kiblerdude.com/blog/{$link}</loc> 
+  </url>
+{/foreach}      
 </urlset>

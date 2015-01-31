@@ -36,7 +36,7 @@ resources:
       type: disease
       
   - uri: /Sitemap.xml
-    name: MainResource
+    name: SitemapResource
     parameters:
       template: sitemap.tpl      
       
