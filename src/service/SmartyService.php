@@ -1,6 +1,5 @@
 <?php
 require_once("Service.php");
-require_once("Smarty.class.php");
 
 class SmartyService implements Service {
     

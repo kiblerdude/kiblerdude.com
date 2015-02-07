@@ -1,13 +1,15 @@
 KiblerDude.com
 ==============
 
-This is the PHP for my personal website.  It is dependent on a couple libraries not included here, and the few images I have on the site are also not uploaded here.
+This is the PHP for my personal website.
 
-##### PHP Library Dependencies
+### Development
 
-- Michelf Markdown
-- SpyC YML Parser
-- Smarty Template Engine
+Composer is used for dependency management.
+
+	$ curl -s http://getcomposer.org/installer | php
+	$ php composer.phar install
+
 
 #### Javascript Library Dependencies
 

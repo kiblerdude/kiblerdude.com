@@ -1,8 +1,9 @@
 <?php
 require_once ("Resource.php");
 require_once ("SmartyService.php");
-require_once ("Markdown.php");
 require_once ("Blog.php");
+
+use \Michelf\Markdown;
 
 class BlogResource implements Resource {
 

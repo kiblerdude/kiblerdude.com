@@ -1,5 +1,5 @@
 <?php
-require_once("spyc.php");
+//require_once("Spyc.php");
 class Core {
    
     public static function process($uri, $named) {
