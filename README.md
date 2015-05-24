@@ -1,17 +1,17 @@
 KiblerDude.com
 ==============
 
-This is the PHP for my personal website.
+This is the code for my personal website.
 
-### Development
+### PHP Development
 
-Composer is used for dependency management.
+Composer is used for PHP dependency management.  See the composer.json file.
 
 	$ curl -s http://getcomposer.org/installer | php
 	$ php composer.phar install
 
+### Javascript Development
 
-#### Javascript Library Dependencies
+Bower is used for Javascript dependency management.  See the bower.json file.
 
-- Twitter Bootstrap
-- JQuery
+  $ bower install
