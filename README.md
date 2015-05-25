@@ -14,15 +14,15 @@ Composer is used for PHP dependency management.  See the `composer.json` file.
 
 Bower is used for Javascript dependency management.  See the `bower.json` file.
 
-  $ bower install
+	$ bower install
 
 ### Grunt
 
-Grunt is used for building the project.  See the `package.json` and `Gruntfile` files.
+Grunt is used for building the project.  See the `package.json` and `Gruntfile.js` files.
 
-  $ grunt
-  Running "copy:main" (copy) task
-  Created 65 directories, copied 419 files
-  Done, without errors.
+	$ grunt
+	Running ...
+	...
+	Done, without errors.
 
-This produces a build in the 'dist' directory that may be deployed to a server.
+This produces a build in the `dist` directory that may be deployed to a server.
