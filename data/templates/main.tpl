@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="kiblerdudeApp">
   <head>
     <meta charset="utf-8">
     {if isset($title)}
@@ -22,11 +22,8 @@
 
     <link rel="stylesheet" href="/scripts/bootstrap/dist/css/bootstrap.css">
     <script src="/scripts/angular/angular.js"></script>
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
+    <script src="/scripts/controllers.js"></script>
+    <link rel="shortcut icon" href="/images/profile.ico">
 
     {literal}
     <script>

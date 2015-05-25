@@ -11,3 +11,5 @@ data/blogs
 composer.phar
 composer.lock
 vendor
+node_modules
+dist

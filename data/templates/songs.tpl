@@ -1,23 +1,28 @@
 {extends file='main.tpl'}
 
 {block name=content}
+<div ng-controller="SongController">
     <h1>Songs</h1>      
     <p class="lead">
         Here is the forever growing list of songs I can play, currently about {$totalSongs} different songs.  If you are listening live, feel free to make a request.
-        </p>        
-        <table class="table table-striped">
-        
-            {foreach from=$genres key=genre item=songs}
-                <tr>
-                    <th colspan="2" style="font-size:18px;">{$genre}</th>
-                </tr>
-                {foreach from=$songs item=song}
-                    <tr>
-                        <td>{$song->artist}</td>
-                        <td>{$song->song}</td>           
-                    </tr>
-                {/foreach}                         
-            {/foreach}                 
-        </table>       
+    </p>
+    
+    <input type="text" class="form-control input-lg" placeholder="Search" ng-model="query"/>
+    
+    <hr/>
+
+    <table class="table table-striped" ng-repeat="m in music">
+        <tr>
+            <th colspan="2" style="font-size:18px;">
+                {literal}{{m.Category}}{/literal}
+            </th>
+        </tr>
+        <tr ng-repeat="s in m.Songs | filter:query">
+            <td>{literal}{{s.Artist}}{/literal}</td>
+            <td>{literal}{{s.Song}}{/literal}</td>
+        </tr>
+    </table>
+
+</div> 
 {/block}
 

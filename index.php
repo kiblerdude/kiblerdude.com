@@ -1,6 +1,6 @@
 <?php
-session_start();
-session_regenerate_id();
+//session_start();
+//session_regenerate_id();
 
 set_include_path(
   get_include_path() . PATH_SEPARATOR .
