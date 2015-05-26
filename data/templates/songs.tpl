@@ -18,8 +18,8 @@
             </th>
         </tr>
         <tr ng-repeat="s in m.Songs | filter:query">
-            <td>{literal}{{s.Artist}}{/literal}</td>
-            <td>{literal}{{s.Song}}{/literal}</td>
+            <td width="50%">{literal}{{s.Artist}}{/literal}</td>
+            <td width="50%">{literal}{{s.Song}}{/literal}</td>
         </tr>
     </table>
 

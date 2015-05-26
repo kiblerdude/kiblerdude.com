@@ -63,24 +63,35 @@
 
     <div class="container">
       {block name=content} 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h2><img src="/images/profile2.png" class="img-rounded"/> Justin Kibler</h2>
-        <h3>Software Engineer by day, Musician by night.</h3>
-        <p>I sing and play cover songs from all genres.  A complete list of the songs I can play is on my <a href="/songs">Songs</a> page.</p>
-        <!--
-        <p>This site is mostly for my music, but I do have a <a href="/blog">blog</a> focused on software engineering as well as a few <a href="/projects">projects</a> I have worked on as well.</p>
-      -->
-        <p>
-          <a href="https://twitter.com/KiblerDude" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @KiblerDude</a>
-          {literal}
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          {/literal}
-        </p>
-        <p>
-          <div class="g-ytsubscribe" data-channelid="UCmYbhUdUZptN5PIykVzzWIg" data-layout="default" data-count="hidden"></div>
-        </p>      
+      <div class="row">
+        <div class="col-md-6">
+          <h2><img src="/images/profile2.png" class="img-rounded"/> Justin Kibler</h2>
+          <h3>Live Music and Entertainment</h3>
+          <p>I sing and play cover songs from all genres.  A complete list of the songs I can play is on my <a href="/songs">Songs</a> page.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="/images/profile3.png" class="img-rounded center-block"/>
+        </div>
       </div>
+
+      <div class="row">
+
+        <a href="https://twitter.com/KiblerDude"
+          class="twitter-follow-button"
+          data-show-count="false"
+          data-size="large">Follow @KiblerDude</a>
+        {literal}
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        {/literal}
+
+        <div class="g-ytsubscribe"
+          data-channelid="UCmYbhUdUZptN5PIykVzzWIg"
+          data-layout="default"
+          data-count="hidden"></div>
+
+      </div>
+      
+      <hr/>
 
       <div class="row">
         <h3>Schedule</h3>
@@ -111,14 +122,51 @@
 
       <div class="row">
         <h3>Media</h3>
-        <div class="col-md-4">
-          <p><iframe width="250" height="200" src="//www.youtube.com/embed/J2TmDaQWYl8" frameborder="0" allowfullscreen></iframe></p>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              <iframe width="250" height="200"
+                src="https://www.youtube.com/embed/hU2oYagfQp8"
+                frameborder="0" allowfullscreen></iframe>
+            </p>
+          </div>          
+          <div class="col-md-4">
+            <p>
+              <iframe width="250" height="200"
+                src="https://www.youtube.com/embed/cPfLiaUijuI"
+                frameborder="0" allowfullscreen></iframe>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              <iframe width="250" height="200"
+                src="https://www.youtube.com/embed/q0YTmjr_PD0"
+                frameborder="0" allowfullscreen></iframe>
+            </p>
+          </div>                 
         </div>
-        <div class="col-md-4">
-          <p><iframe width="250" height="200" src="//www.youtube.com/embed/Vxl_pFqDLFA" frameborder="0" allowfullscreen></iframe></p>
-        </div>
-        <div class="col-md-4">
-          <p><iframe width="250" height="200" src="//www.youtube.com/embed/0xx-ts_BWmA" frameborder="0" allowfullscreen></iframe></p>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              <iframe width="250" height="200"
+                src="//www.youtube.com/embed/J2TmDaQWYl8"
+                frameborder="0" allowfullscreen></iframe>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              <iframe width="250" height="200"
+                src="//www.youtube.com/embed/Vxl_pFqDLFA"
+                frameborder="0" allowfullscreen></iframe>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              <iframe width="250" height="200"
+                src="//www.youtube.com/embed/0xx-ts_BWmA"
+                frameborder="0" allowfullscreen></iframe>
+            </p>
+          </div>
         </div>
       </div>
 
