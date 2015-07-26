@@ -6,11 +6,11 @@
     {if isset($title)}
       <title>{$title}</title>
     {else}
-      <title>Justin Kibler - Software Engineer by day, Musician by night - Orlando, FL</title>
+      <title>Justin Kibler - Live Music and Entertainment - Orlando, FL</title>
     {/if} 
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Justin Kibler - Software Engineer by day, Musician by night - Orlando, FL">
+    <meta name="description" content="Justin Kibler - Live Music and Entertainment - Orlando, FL">
     <meta name="author" content="Justin Kibler">
 
     <style type="text/css">

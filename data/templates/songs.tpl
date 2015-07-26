@@ -1,10 +1,10 @@
 {extends file='main.tpl'}
 
 {block name=content}
-<div ng-controller="SongController">
+<div ng-controller="SongController" ng-cloak>
     <h1>Songs</h1>      
     <p class="lead">
-        Here is the forever growing list of songs I can play, currently about {$totalSongs} different songs.  If you are listening live, feel free to make a request.
+        Here is the forever growing list of songs I can play, currently about {literal}{{totalSongs}}{/literal} different songs.  If you are listening live, feel free to make a request.
     </p>
     
     <input type="text" class="form-control input-lg" placeholder="Search" ng-model="query"/>
