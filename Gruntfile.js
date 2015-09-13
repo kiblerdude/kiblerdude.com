@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     copy: {
       main: {
         expand: true,
-        src: [ "*.html", "images/**", "data/**", "scripts/**", "vendor/**" ],
+        src: [ "*.html", "js/**", "images/**", "data/**", "scripts/**", "vendor/**" ],
         dest: "dist/",
       }
     }

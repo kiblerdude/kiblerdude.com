@@ -1,15 +1,16 @@
 KiblerDude.com
 ==============
 
-This is the code for my personal website.
+This is the code for my personal website.  The development uses nodejs (4.0.0), bower, and grunt.
 
-### Javascript Development
 
-Bower is used for Javascript dependency management.  See the `bower.json` file.
+### Development Setup
 
+  $ npm install
+  $ npm install -g bower
 	$ bower install
 
-### Grunt
+### Building
 
 Grunt is used for building the project.  See the `package.json` and `Gruntfile.js` files.
 
