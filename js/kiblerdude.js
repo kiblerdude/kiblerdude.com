@@ -24,6 +24,7 @@ kiblerdude.controller('SongController', function($scope) {
     "Songs":[
       { "Artist":"Cars", "Song":"Drive" },
       { "Artist":"Dead or Alive", "Song":"You Spin Me Right Round" },
+      { "Artist":"George Michael", "Song":"Faith" },
       { "Artist":"Inner Circle", "Song":"Sweat" },
       { "Artist":"INXS", "Song":"Don't Change" },
       { "Artist":"Modern English", "Song":"Melt With You" },
@@ -140,6 +141,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Dion", "Song":"Wanderer" },
       { "Artist":"Elvis", "Song":"Hound Dog" },
       { "Artist":"Grease", "Song":"Greased Lightning" },
+      { "Artist":"Hermans Hermits", "Song":"I'm Into Something Good" },
       { "Artist":"James Taylor", "Song":"How Sweet It Is To Be Loved By You" },
       { "Artist":"Jim Croce", "Song":"Bad Bad Leroy Brown" },
       { "Artist":"Joe Cocker", "Song":"Aint No Sunshine" },
@@ -172,6 +174,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Iron and Wine", "Song":"Flightless Bird American Mouth" },
       { "Artist":"Jace Everett", "Song":"Bad Things" },
       { "Artist":"Jack Johnson", "Song":"Flake" },
+      { "Artist":"Jason Mraz", "Song":"I'm Yours" },
       { "Artist":"Jeff Buckley", "Song":"Hallelujah" },
       { "Artist":"One Republic", "Song":"Counting Stars" }
     ]
