@@ -1,15 +1,7 @@
-aspnet_client
-cache
-compile
-lib
+.bowerrc
 images
-php.ini
-web.config
 scripts
 styles
-data/blogs
-composer.phar
-composer.lock
-vendor
+data
 node_modules
 dist

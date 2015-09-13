@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     copy: {
       main: {
         expand: true,
-        src: [ ".htaccess", "web.config", "config.yml", "index.php", "src/**", "images/**", "data/**", "scripts/**", "vendor/**" ],
+        src: [ "*.html", "images/**", "data/**", "scripts/**", "vendor/**" ],
         dest: "dist/",
       }
     }
