@@ -6,15 +6,15 @@ var kiblerdude = angular.module('kiblerdudeApp', []);
 
 kiblerdude.controller('ScheduleController', function($scope) {
   $scope.schedule = [{
+    "Date": "Thursday, December 3, 2015",
+    "Time": "8pm-11pm",
+    "Location": "Spill Wine Bar",
+    "Link": "http://spillwinebar.com/"
+  },{
     "Date": "Every Wednesday (usually)",
     "Time": "8pm-11pm (Open Mic)",
     "Location": "Spill Wine Bar",
     "Link":"http://spillwinebar.com/"
-  },{
-    "Date": "Saturday, August 15, 2015",
-    "Time": "8pm-11pm",
-    "Location": "Spill Wine Bar",
-    "Link": "http://spillwinebar.com/"
   }];
 }); // End EventController
 
@@ -76,6 +76,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Red Hot Chili Peppers", "Song":"Under the Bridge" },
       { "Artist":"Seven Mary Three", "Song":"Cumbersome" },
       { "Artist":"Sister Hazel", "Song":"All For You" },
+      { "Artist":"Smashing Pumpkins", "Song":"Today" },
       { "Artist":"Soul Asylum", "Song":"Runaway Train" },
       { "Artist":"Stone Temple Pilots", "Song":"Plush" },
       { "Artist":"The Calling", "Song":"Wherever You Will Go" },
