@@ -111,7 +111,7 @@
         <h3>Schedule</h3>
         <hr/>
         <table class="table table-striped">
-            <tr ng-repeat="event in schedule">
+            <tr ng-repeat="event in schedule" ng-cloak>
                 <td>{{event.Date}}</td> 
                 <td>{{event.Time}}</td> 
                 <td><a target="_blank" href="{{event.Link}}">{{event.Location}}</a></td>                              
