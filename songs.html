@@ -16,9 +16,16 @@
       }
     </style>
 
-    <link rel="stylesheet" href="/scripts/bootstrap/dist/css/bootstrap.css">
-    <script src="/scripts/angular/angular.js"></script>
+    <!-- build:css kiblerdude.min.css -->
+    <link rel="stylesheet" href="/scripts/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endbuild -->
+
+    <!-- build:js kiblerdude.min.js -->
+    <script src="/scripts/angular/angular.min.js"></script>
+    <!-- endbuild -->
+
     <script src="/js/kiblerdude.js"></script>
+    
     <link rel="shortcut icon" href="/images/profile.ico">
 
     <script>
@@ -59,7 +66,8 @@
     <div class="container">      
 
         <div ng-controller="SongController" ng-cloak>
-            <h1>Songs</h1>      
+            <h2><img src="/images/profile2.png" class="img-rounded"/> Justin Kibler</h2>
+            <h3>Songs</h3>    
             <p class="lead">
                 Here is the forever growing list of songs I can play, currently about {{totalSongs}} different songs.  If you are listening live, feel free to make a request.
             </p>
