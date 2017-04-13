@@ -6,15 +6,15 @@ var kiblerdude = angular.module('kiblerdudeApp', []);
 
 kiblerdude.controller('ScheduleController', function($scope) {
   $scope.schedule = [{
+    "Date": "Thursday, April 20, 2017",
+    "Time": "6pm-8pm",
+    "Location": "Bleachers",
+    "Link": "http://www.bleachersbarct.com/"
+  },{
     "Date": "Thursday, December 3, 2015",
     "Time": "8pm-11pm",
     "Location": "Spill Wine Bar",
     "Link": "http://spillwinebar.com/"
-  },{
-    "Date": "Every Wednesday (usually)",
-    "Time": "8pm-11pm (Open Mic)",
-    "Location": "Spill Wine Bar",
-    "Link":"http://spillwinebar.com/"
   }];
 }); // End EventController
 
@@ -114,7 +114,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Jimmy Buffet", "Song":"Son of a Sailor" },
       { "Artist":"John Mellencamp", "Song":"Wild Nights" },
       { "Artist":"Kenny Loggins", "Song":"Dannys Song" },
-      { "Artist":"Lynard Skynard", "Song":"Tuesdays Gone" },
+      { "Artist":"Lynyrd Skynyrd", "Song":"Tuesdays Gone" },
       { "Artist":"Marshall Tucker Band", "Song":"Can't You See" },
       { "Artist":"Neil Young", "Song":"Heart of Gold" },
       { "Artist":"Queen", "Song":"Crazy Little Thing Called Love" },
