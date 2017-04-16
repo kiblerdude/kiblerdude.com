@@ -137,12 +137,12 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Billy Joel", "Song":"Its Still Rock and Roll To Me" },
       { "Artist":"Billy Joel", "Song":"Piano Man" },
       { "Artist":"Buffalo Springfield", "Song":"For What It's Worth" },
-      { "Artist":"Cheers", "Song":"Where Everybody Knows Your Name" },
       { "Artist":"Del Vikings", "Song":"Come Go With Me" },
-      { "Artist":"Dion", "Song":"Runaround Sue" },
-      { "Artist":"Dion", "Song":"Teenager In Love" },
-      { "Artist":"Dion", "Song":"Wanderer" },
+      { "Artist":"Dion & The Belmonts", "Song":"Runaround Sue" },
+      { "Artist":"Dion & The Belmonts", "Song":"Teenager In Love" },
+      { "Artist":"Dion & The Belmonts", "Song":"Wanderer" },
       { "Artist":"Elvis", "Song":"Hound Dog" },
+      { "Artist":"Gary Portney", "Song":"Where Everybody Knows Your Name (Cheers)" },
       { "Artist":"Grease", "Song":"Greased Lightning" },
       { "Artist":"Hermans Hermits", "Song":"I'm Into Something Good" },
       { "Artist":"James Taylor", "Song":"How Sweet It Is To Be Loved By You" },
@@ -152,6 +152,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Kermit the Frog", "Song":"Rainbow Connection" },
       { "Artist":"Manfred Man", "Song":"Doo Wah Diddy" },
       { "Artist":"Otis Redding", "Song":"Dock of the Bay" },
+      { "Artist":"Paul Simon", "Song":"Kodachrome" },
       { "Artist":"Searchers", "Song":"Love Potion #9" }
     ]
   },{
