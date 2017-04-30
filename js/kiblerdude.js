@@ -6,6 +6,11 @@ var kiblerdude = angular.module('kiblerdudeApp', []);
 
 kiblerdude.controller('ScheduleController', function($scope) {
   $scope.schedule = [{
+    "Date": "Friday, May 5, 2017",
+    "Time": "5pm-7pm",
+    "Location": "Bleachers",
+    "Link": "http://www.bleachersbarct.com/"
+  },{
     "Date": "Thursday, April 20, 2017",
     "Time": "6pm-8pm",
     "Location": "Bleachers",
@@ -86,7 +91,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"The Verve Pipe", "Song":"The Freshmen" },
       { "Artist":"Tonic", "Song":"If You Could Only See" },
       { "Artist":"Vertical Horizon", "Song":"Everything You Want" },
-      { "Artist":"Wallflowers", "Song":"6th Avenue Heartache" }
+      { "Artist":"Wallflowers", "Song":"6th Avenue Heartache" },
+      { "Artist":"Weezer", "Song":"Island In The Sun" }
     ]
   },{
     "Category":"Classic Rock",
@@ -125,6 +131,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Steppenwolf", "Song":"Born to be Wild" },
       { "Artist":"The Band", "Song":"The Weight" },
       { "Artist":"The Outfield", "Song":"Your Love" },
+      { "Artist":"Tom Petty", "Song":"Mary Jane's Last Dance" },
       { "Artist":"Tom Petty", "Song":"You Don't Know How It Feels" }
     ]
   },{
@@ -134,7 +141,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Beatles", "Song":"A Little Help from my Friends" },
       { "Artist":"Beatles", "Song":"Let It Be" },
       { "Artist":"Bill Withers", "Song":"Lean On Me" },
-      { "Artist":"Billy Joel", "Song":"Its Still Rock and Roll To Me" },
+      //{ "Artist":"Billy Joel", "Song":"Its Still Rock and Roll To Me" },
       { "Artist":"Billy Joel", "Song":"Piano Man" },
       { "Artist":"Buffalo Springfield", "Song":"For What It's Worth" },
       { "Artist":"Del Vikings", "Song":"Come Go With Me" },
