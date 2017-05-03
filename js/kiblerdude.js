@@ -67,6 +67,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Brand New", "Song":"The Quiet Things No One Ever Knows" },
       { "Artist":"Bush", "Song":"Comedown" },
       { "Artist":"Bush", "Song":"Glycerine" },
+      { "Artist":"Duncan Sheik", "Song":"Barely Breathing" },
       { "Artist":"Eve 6", "Song":"Inside Out" },
       { "Artist":"Gavin Rosdale", "Song":"Love Remains The Same" },
       { "Artist":"Goo Goo Dolls", "Song":"Name" },
@@ -128,6 +129,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Queen", "Song":"Crazy Little Thing Called Love" },
       { "Artist":"Rolling Stones", "Song":"Paint it Black" },
       { "Artist":"Rolling Stones", "Song":"Sympathy for the Devil" },
+      { "Artist":"Stealer's Wheel", "Song":"Stuck In The Middle With You" },
       { "Artist":"Steppenwolf", "Song":"Born to be Wild" },
       { "Artist":"The Band", "Song":"The Weight" },
       { "Artist":"The Outfield", "Song":"Your Love" },
@@ -166,6 +168,7 @@ kiblerdude.controller('SongController', function($scope) {
     "Category":"Country",
     "Songs":[
       { "Artist":"Alabama", "Song":"Dixieland Delight" },
+      { "Artist":"Darius Rucker", "Song":"Wagon Wheel" },
       { "Artist":"David Allen Coe", "Song":"You Don't Even Call Me By My Name" },
       { "Artist":"Garth Brooks", "Song":"That Summer" },
       { "Artist":"Garth Brooks", "Song":"The River" },
