@@ -6,6 +6,11 @@ var kiblerdude = angular.module('kiblerdudeApp', []);
 
 kiblerdude.controller('ScheduleController', function($scope) {
   $scope.schedule = [{
+    "Date": "Thursday, July 13, 2017",
+    "Time": "6pm-8pm",
+    "Location": "Bleachers",
+    "Link": "http://www.bleachersbarct.com/"
+  },{
     "Date": "Friday, May 5, 2017",
     "Time": "5pm-7pm",
     "Location": "Bleachers",
@@ -43,7 +48,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Sting", "Song":"Fields of Gold" },
       { "Artist":"Tears For Fears", "Song":"Mad World" },
       { "Artist":"The Cure", "Song":"Love Song" },
-      { "Artist":"The Fly", "Song":"Got You Where I Want You" }
+      { "Artist":"The Fly", "Song":"Got You Where I Want You" },
+      { "Artist":"Tommy Tutone", "Song":"Jenny 867-5309" }
     ]
   },{
     "Category": "80's Rock",
@@ -70,7 +76,9 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Duncan Sheik", "Song":"Barely Breathing" },
       { "Artist":"Eve 6", "Song":"Inside Out" },
       { "Artist":"Gavin Rosdale", "Song":"Love Remains The Same" },
+      { "Artist":"Gin Blossums", "Song":"Here It From You" },
       { "Artist":"Goo Goo Dolls", "Song":"Name" },
+      { "Artist":"Greenday", "Song":"Basket Case" },
       { "Artist":"Greenday", "Song":"Good Riddance" },
       { "Artist":"Hootie and the Blowfish", "Song":"Let Her Cry" },
       { "Artist":"Live", "Song":"Lightning Crashes" },
