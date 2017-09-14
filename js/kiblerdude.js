@@ -5,7 +5,20 @@
 var kiblerdude = angular.module('kiblerdudeApp', []);
 
 kiblerdude.controller('ScheduleController', function($scope) {
-  $scope.schedule = [{
+  $scope.schedule = [
+  {
+    "Date": "First Thursday of the Month",
+    "Time": "Happy Hour",
+    "Location": "Bleachers",
+    "Link": "http://www.bleachersbarct.com/"
+  },
+  {
+    "Date": "Third Friday of the Month",
+    "Time": "Happy Hour",
+    "Location": "Bleachers",
+    "Link": "http://www.bleachersbarct.com/"
+  },
+  {
     "Date": "Thursday, July 13, 2017",
     "Time": "6pm-8pm",
     "Location": "Bleachers",
@@ -32,12 +45,15 @@ kiblerdude.controller('SongController', function($scope) {
   $scope.music = [{
     "Category":"80's & 90's",
     "Songs":[
+      { "Artist":"Backstreet Boys", "Song":"I Want It That Way", "new":true },
       { "Artist":"Cars", "Song":"Drive" },
       { "Artist":"Dead or Alive", "Song":"You Spin Me Right Round" },
       { "Artist":"George Michael", "Song":"Faith" },
       { "Artist":"Inner Circle", "Song":"Sweat" },
       { "Artist":"INXS", "Song":"Don't Change" },
       { "Artist":"Modern English", "Song":"Melt With You" },
+      { "Artist":"NSync", "Song":"Bye Bye Bye", "new":true },
+      { "Artist":"NSync", "Song":"Tearin Up My Heart", "new":true },
       { "Artist":"Phil Collins", "Song":"In the Air Tonight" },
       { "Artist":"Ramones", "Song":"I Wanna Be Sedated" },
       { "Artist":"REM", "Song":"The One I Love" },
@@ -78,9 +94,12 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Gavin Rosdale", "Song":"Love Remains The Same" },
       { "Artist":"Gin Blossums", "Song":"Here It From You" },
       { "Artist":"Goo Goo Dolls", "Song":"Name" },
+      { "Artist":"Goo Goo Dolls", "Song":"Slide", "new":true },
       { "Artist":"Greenday", "Song":"Basket Case" },
       { "Artist":"Greenday", "Song":"Good Riddance" },
       { "Artist":"Hootie and the Blowfish", "Song":"Let Her Cry" },
+      { "Artist":"Incubus", "Song":"Drive", "new":true },
+      { "Artist":"Linkin Park", "Song":"Numb", "new":true },
       { "Artist":"Live", "Song":"Lightning Crashes" },
       { "Artist":"Marcy Playground", "Song":"Sex and Candy" },
       { "Artist":"Matchbox 20", "Song":"3 a.m." },
@@ -88,6 +107,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Nirvana", "Song":"Man Who Sold the World" },
       { "Artist":"Oasis", "Song":"Wonderwall" },
       { "Artist":"Offspring", "Song":"The Kids Aren't Alright" },
+      { "Artist":"Radiohead", "Song":"Creep", "new":true },
       { "Artist":"Red Hot Chili Peppers", "Song":"Other Side" },
       { "Artist":"Red Hot Chili Peppers", "Song":"Under the Bridge" },
       { "Artist":"Seven Mary Three", "Song":"Cumbersome" },
@@ -95,6 +115,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Smashing Pumpkins", "Song":"Today" },
       { "Artist":"Soul Asylum", "Song":"Runaway Train" },
       { "Artist":"Stone Temple Pilots", "Song":"Plush" },
+      { "Artist":"Sublime", "Song":"What I Got", "new":true },
       { "Artist":"The Calling", "Song":"Wherever You Will Go" },
       { "Artist":"The Proclaimers", "Song":"500 Miles" },
       { "Artist":"The Verve Pipe", "Song":"The Freshmen" },

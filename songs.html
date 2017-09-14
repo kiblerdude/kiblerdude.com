@@ -85,7 +85,9 @@
                 </tr>
                 <tr ng-repeat="s in m.Songs | filter:query">
                     <td width="50%">{{s.Artist}}</td>
-                    <td width="50%">{{s.Song}}</td>
+                    <td width="50%">{{s.Song}}
+                      <span ng-if="s.new == true" class="label label-success">New</span></h3>
+                    </td>
                 </tr>
             </table>
 
