@@ -19,6 +19,12 @@ kiblerdude.controller('ScheduleController', function($scope) {
     "Link": "http://www.bleachersbarct.com/"
   },
   {
+    "Date": "Wednesday, November 22, 2017 (Thanksgiving Eve)",
+    "Time": "6pm-8pm",
+    "Location": "Bleachers",
+    "Link": "http://www.bleachersbarct.com/"
+  },  
+  {
     "Date": "Thursday, July 13, 2017",
     "Time": "6pm-8pm",
     "Location": "Bleachers",
@@ -162,6 +168,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Steppenwolf", "Song":"Born to be Wild" },
       { "Artist":"The Band", "Song":"The Weight" },
       { "Artist":"The Outfield", "Song":"Your Love" },
+      { "Artist":"Tom Petty", "Song":"Free Fallin", "new":true },
       { "Artist":"Tom Petty", "Song":"Mary Jane's Last Dance" },
       { "Artist":"Tom Petty", "Song":"You Don't Know How It Feels" }
     ]
@@ -201,6 +208,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"David Allen Coe", "Song":"You Don't Even Call Me By My Name" },
       { "Artist":"Garth Brooks", "Song":"That Summer" },
       { "Artist":"Garth Brooks", "Song":"The River" },
+      { "Artist":"Garth Brooks", "Song":"Wrappd Up In You", "new": true },
       { "Artist":"George Strait", "Song":"Carrying Your Love With Me" },
       { "Artist":"Jamey Johnson", "Song":"In Color" },
       { "Artist":"Johnny Cash", "Song":"Folsom Prison Blues" },
@@ -220,7 +228,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Jack Johnson", "Song":"Flake" },
       { "Artist":"Jason Mraz", "Song":"I'm Yours" },
       { "Artist":"Jeff Buckley", "Song":"Hallelujah" },
-      { "Artist":"One Republic", "Song":"Counting Stars" }
+      { "Artist":"One Republic", "Song":"Counting Stars" },
+      { "Artist":"Plain White Ts", "Song":"Hey There Delilah", "new":true }
     ]
   }];
 
