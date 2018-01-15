@@ -53,6 +53,7 @@ kiblerdude.controller('SongController', function($scope) {
     "Songs":[
       { "Artist":"Backstreet Boys", "Song":"I Want It That Way" },
       { "Artist":"Cars", "Song":"Drive" },
+      { "Artist":"Chris Isaak", "Song":"Wicked Game", "new":true },
       { "Artist":"Cutting Crew", "Song":"I Just Died In Your Arms Tonight", "new":true },
       { "Artist":"Dead or Alive", "Song":"You Spin Me Right Round" },
       { "Artist":"George Michael", "Song":"Faith" },
@@ -124,6 +125,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Sister Hazel", "Song":"All For You" },
       { "Artist":"Smashing Pumpkins", "Song":"Today" },
       { "Artist":"Soul Asylum", "Song":"Runaway Train" },
+      { "Artist":"Spin Doctors", "Song":"Two Princes", "new":true },
       { "Artist":"Stone Temple Pilots", "Song":"Plush" },
       { "Artist":"Sublime", "Song":"What I Got" },
       { "Artist":"The Calling", "Song":"Wherever You Will Go" },
