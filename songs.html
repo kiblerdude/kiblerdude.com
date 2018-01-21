@@ -1,33 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en" ng-app="kiblerdudeApp">
   <head>
     <meta charset="utf-8">
-    <title>Justin Kibler - Live Music - Connecticut</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Justin Kibler - Live Music and Entertainment - Connecticut">
-    <meta name="author" content="Justin Kibler">
-
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-
-    <link rel="stylesheet" href="http://www.kiblerdude.com/scripts/bootstrap/dist/css/bootstrap.min.css">
-    <!-- build:css kiblerdude.min.css -->
-    <!-- endbuild -->
-
-    
-    <script src="http://www.kiblerdude.com/scripts/angular/angular.min.js"></script>
-    <!-- build:js kiblerdude.min.js -->
-    <!-- endbuild -->
-
-    <script src="http://www.kiblerdude.com/js/kiblerdude.js"></script>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="shortcut icon" href="http://www.kiblerdude.com/images/profile.ico">
+
+    <title>Live Music by Justin Kibler</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://www.kiblerdude.com/scripts/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://www.kiblerdude.com/css/cover.css" rel="stylesheet">
+
+    <script src="http://www.kiblerdude.com/scripts/angular/angular.min.js"></script>
+    <script src="http://www.kiblerdude.com/js/kiblerdude.js"></script>    
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,45 +27,44 @@
       ga('create', 'UA-46624353-1', 'kiblerdude.com');
       ga('send', 'pageview');
     
-    </script>
-
+    </script>    
   </head>
 
-  <body>
+  <body class="text-center">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">Justin Kibler</a>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="http://www.kiblerdude.com/">Home</a>
+            <a class="nav-link active" href="http://www.kiblerdude.com/songs.html">Songs</a>        
+          </nav>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/songs.html">Songs</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+      </header>
 
-    <div class="container">      
+      <main role="main" class="inner cover">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Songs</h2>
+          </div>
+        </div>
 
-        <div ng-controller="SongController" ng-cloak>
-            <h2><img src="http://www.kiblerdude.com/images/profile2.png" class="img-rounded"/> Justin Kibler</h2>
-            <h3>Songs</h3>    
+        <div ng-controller="SongController" ng-cloak>  
+          <!--
             <p class="lead">
                 Here is the forever growing list of songs I can play, currently about {{totalSongs}} different songs.  If you are listening live, feel free to make a request.
             </p>
-            
+            -->
             <input type="text" class="form-control input-lg" placeholder="Search" ng-model="query"/>
-            
-            <hr/>
 
+            <div class="card" ng-repeat="m in music">
+              <h4 class="card-title">{{m.Category}}</h4>              
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" ng-repeat="s in m.Songs | filter:query">{{s.Artist}} - {{s.Song}}</li>
+              </ul>
+              <hr/>
+            </div>
+<!--
             <table class="table table-striped" ng-repeat="m in music">
                 <tr>
                     <th colspan="2" style="font-size:18px;">
@@ -90,14 +78,25 @@
                     </td>
                 </tr>
             </table>
+-->
+        </div>        
 
-        </div>       
+      </main>
 
-    </div> <!-- /container -->
+      <footer class="mastfoot mt-auto">
+      </footer>
+    </div>
 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+<!--
     <script src="http://www.kiblerdude.com/scripts/jquery/dist/jquery.min.js"></script>
+-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="http://www.kiblerdude.com/scripts/popper.js/dist/popper.min.js"></script>  
     <script src="http://www.kiblerdude.com/scripts/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://apis.google.com/js/platform.js"></script> 
-
+    <script src="https://apis.google.com/js/platform.js"></script>     
   </body>
 </html>
