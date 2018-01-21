@@ -92,12 +92,12 @@ module.exports = function (grunt) {
  
     grunt.registerTask('build', [
         'clean:dist',
-        'useminPrepare',
-        'concat:generated',
-        'cssmin:generated',
-        'uglify:generated',
+        //'useminPrepare',
+        //'concat:generated',
+        //'cssmin:generated',
+        //'uglify:generated',
         'copy:dist',
-        'usemin',
+        //'usemin',
         'htmlmin:dist',
         'clean:tmp'
     ]);
