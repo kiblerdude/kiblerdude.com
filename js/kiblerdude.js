@@ -17,33 +17,6 @@ kiblerdude.controller('ScheduleController', function($scope) {
     "Time": "Happy Hour",
     "Location": "Bleachers",
     "Link": "http://www.bleachersbarct.com/"
-  },
-  {
-    "Date": "Wednesday, November 22, 2017 (Thanksgiving Eve)",
-    "Time": "6pm-8pm",
-    "Location": "Bleachers",
-    "Link": "http://www.bleachersbarct.com/"
-  },  
-  {
-    "Date": "Thursday, July 13, 2017",
-    "Time": "6pm-8pm",
-    "Location": "Bleachers",
-    "Link": "http://www.bleachersbarct.com/"
-  },{
-    "Date": "Friday, May 5, 2017",
-    "Time": "5pm-7pm",
-    "Location": "Bleachers",
-    "Link": "http://www.bleachersbarct.com/"
-  },{
-    "Date": "Thursday, April 20, 2017",
-    "Time": "6pm-8pm",
-    "Location": "Bleachers",
-    "Link": "http://www.bleachersbarct.com/"
-  },{
-    "Date": "Thursday, December 3, 2015",
-    "Time": "8pm-11pm",
-    "Location": "Spill Wine Bar",
-    "Link": "http://spillwinebar.com/"
   }];
 }); // End EventController
 
@@ -62,6 +35,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Modern English", "Song":"Melt With You" },
       { "Artist":"NSync", "Song":"Bye Bye Bye" },
       { "Artist":"NSync", "Song":"Tearin Up My Heart" },
+      { "Artist":"Paula Abdul", "Song":"Straight Up", "new":true },
       { "Artist":"Phil Collins", "Song":"In the Air Tonight" },
       { "Artist":"Ramones", "Song":"I Wanna Be Sedated" },
       { "Artist":"REM", "Song":"Losing My Religion", "new":true },
@@ -186,6 +160,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Beatles", "Song":"A Little Help from my Friends" },
       { "Artist":"Beatles", "Song":"Let It Be" },
       { "Artist":"Beatles", "Song":"Revolution" },
+      { "Artist":"Ben E. King", "Song":"Stand By Me", "new":true },
       { "Artist":"Bill Withers", "Song":"Lean On Me" },
       //{ "Artist":"Billy Joel", "Song":"Its Still Rock and Roll To Me" },
       { "Artist":"Billy Joel", "Song":"Piano Man" },
@@ -195,7 +170,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Dion & The Belmonts", "Song":"Teenager In Love" },
       { "Artist":"Dion & The Belmonts", "Song":"Wanderer" },
       { "Artist":"Elvis", "Song":"Hound Dog" },
-      { "Artist":"Gary Portney", "Song":"Where Everybody Knows Your Name (Cheers)" },
+      { "Artist":"Gary Portney", "Song":"Where Everybody Knows Your Name" },
+      { "Artist":"Gloria Gaynor", "Song":"I Will Survive", "new":true },
       { "Artist":"Grease", "Song":"Greased Lightning" },
       { "Artist":"Hermans Hermits", "Song":"I'm Into Something Good" },
       { "Artist":"James Taylor", "Song":"How Sweet It Is To Be Loved By You" },
