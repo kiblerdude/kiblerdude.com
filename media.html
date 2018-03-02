@@ -37,8 +37,8 @@
         <div class="inner">
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link" href="http://www.kiblerdude.com/">Home</a>
-            <a class="nav-link active" href="http://www.kiblerdude.com/songs.html">Songs</a>
-            <a class="nav-link" href="http://www.kiblerdude.com/media.html">Media</a>          
+            <a class="nav-link" href="http://www.kiblerdude.com/songs.html">Songs</a>
+            <a class="nav-link active" href="http://www.kiblerdude.com/media.html">Media</a>  
           </nav>
         </div>
       </header>
@@ -46,42 +46,67 @@
       <main role="main" class="inner cover">
         <div class="card">
           <div class="card-body">
-            <h2 class="card-title">Songs</h2>
+            <h2 class="card-title">Media</h2>
           </div>
         </div>
 
-        <div class="row" ng-controller="SongController" ng-cloak>  
-          <!--
-            <p class="lead">
-                Here is the forever growing list of songs I can play, currently about {{totalSongs}} different songs.  If you are listening live, feel free to make a request.
-            </p>
-            -->
-            <input type="text" class="form-control input-lg" placeholder="Search" ng-model="query"/>
-
-            <div class="card" ng-repeat="m in music">
-              <h4 class="card-title">{{m.Category}}</h4>              
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item" ng-repeat="s in m.Songs | filter:query">{{s.Artist}} - {{s.Song}}</li>
-              </ul>
-              <hr/>
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe 
+                src="https://www.youtube.com/embed/hU2oYagfQp8"
+                allowfullscreen></iframe>
             </div>
-<!--
-            <table class="table table-striped" ng-repeat="m in music">
-                <tr>
-                    <th colspan="2" style="font-size:18px;">
-                       {{m.Category}}
-                    </th>
-                </tr>
-                <tr ng-repeat="s in m.Songs | filter:query">
-                    <td width="50%">{{s.Artist}}</td>
-                    <td width="50%">{{s.Song}}
-                      <span ng-if="s.new == true" class="label label-success">New</span></h3>
-                    </td>
-                </tr>
-            </table>
--->
-        </div>        
+          </div>
+        </div>
+        
+        <div class="row text-center">           
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe 
+                src="https://www.youtube.com/embed/cPfLiaUijuI"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe 
+                src="https://www.youtube.com/embed/q0YTmjr_PD0"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
 
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe 
+                src="//www.youtube.com/embed/J2TmDaQWYl8"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe 
+                src="//www.youtube.com/embed/Vxl_pFqDLFA"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe 
+                src="//www.youtube.com/embed/0xx-ts_BWmA"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        
       </main>
 
       <footer class="mastfoot mt-auto">

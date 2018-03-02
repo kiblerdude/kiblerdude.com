@@ -64,7 +64,7 @@ module.exports = function (grunt) {
                     cwd: '<%= yeoman.app %>',
                     dest: '<%= yeoman.dist %>',
                     src: [
-                        "*.html", "images/**", "js/**", "scripts/**"
+                        "*.html", "images/**", "js/**", "scripts/**", "css/**"
                     ]
                 }]
             }
@@ -92,12 +92,12 @@ module.exports = function (grunt) {
  
     grunt.registerTask('build', [
         'clean:dist',
-        'useminPrepare',
-        'concat:generated',
-        'cssmin:generated',
-        'uglify:generated',
+        //'useminPrepare',
+        //'concat:generated',
+        //'cssmin:generated',
+        //'uglify:generated',
         'copy:dist',
-        'usemin',
+        //'usemin',
         'htmlmin:dist',
         'clean:tmp'
     ]);
