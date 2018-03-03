@@ -50,20 +50,23 @@
           </div>
         </div>
 
-        <div class="row" ng-controller="SongController" ng-cloak>  
-          <!--
-            <p class="lead">
-                Here is the forever growing list of songs I can play, currently about {{totalSongs}} different songs.  If you are listening live, feel free to make a request.
-            </p>
-            -->
+        <div class="row" ng-controller="SongController" ng-cloak>
+            <div class="card">
+              <p class="card-text">
+              Here is the forever growing list of songs I can play, currently about {{totalSongs}} different songs.  If you are listening live, feel free to make a request.                
+              </p>
+            </div>
+            <hr/>        
+            <!--
             <input type="text" class="form-control input-lg" placeholder="Search" ng-model="query"/>
-
-            <div class="card" ng-repeat="m in music">
-              <h4 class="card-title">{{m.Category}}</h4>              
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item" ng-repeat="s in m.Songs | filter:query">{{s.Artist}} - {{s.Song}}</li>
-              </ul>
-              <hr/>
+          -->
+            <div class="card-columns">
+              <div class="card p-1" ng-repeat="m in music">
+                <h4 class="card-title">{{m.Category}}</h4>              
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" ng-repeat="s in m.Songs | filter:query">{{s.Artist}} - {{s.Song}}</li>
+                </ul>
+              </div>
             </div>
 <!--
             <table class="table table-striped" ng-repeat="m in music">
