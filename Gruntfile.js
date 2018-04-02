@@ -69,6 +69,25 @@ module.exports = function (grunt) {
                 }]
             }
         },
+
+        replace: {
+            dist: {
+                options: {
+                    patterns: [
+                        {
+                            match: 'cdn',
+                            replacement: 'http://d14tf4tc3769hx.cloudfront.net'
+                        }
+                    ]
+                },
+                files: [
+                    {
+                        src: ['*.html'], 
+                        dest: 'dist/'
+                    }
+                ]
+            }
+        },        
  
         htmlmin: {
             dist: {
@@ -97,8 +116,9 @@ module.exports = function (grunt) {
         //'cssmin:generated',
         //'uglify:generated',
         'copy:dist',
+        'replace:dist',
         //'usemin',
-        'htmlmin:dist',
+        //'htmlmin:dist',
         'clean:tmp'
     ]);
  
