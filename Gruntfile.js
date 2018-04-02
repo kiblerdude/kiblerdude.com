@@ -76,7 +76,7 @@ module.exports = function (grunt) {
                     patterns: [
                         {
                             match: 'cdn',
-                            replacement: 'http://d14tf4tc3769hx.cloudfront.net'
+                            replacement: 'https://d14tf4tc3769hx.cloudfront.net'
                         }
                     ]
                 },
