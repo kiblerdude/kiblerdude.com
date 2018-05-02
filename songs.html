@@ -64,7 +64,10 @@
               <div class="card p-1" ng-repeat="m in music">
                 <h4 class="card-title">{{m.Category}}</h4>              
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item" ng-repeat="s in m.Songs | filter:query">{{s.Artist}} - {{s.Song}}</li>
+                  <li class="list-group-item"
+                    ng-class="{ 'list-group-item-success': s.new }"
+                    ng-repeat="s in m.Songs | filter:query">{{s.Artist}} - {{s.Song}}
+                  </li>
                 </ul>
               </div>
             </div>
