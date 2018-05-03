@@ -218,6 +218,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Jack Johnson", "Song":"Flake" },
       { "Artist":"Jason Mraz", "Song":"I'm Yours" },
       { "Artist":"Jeff Buckley", "Song":"Hallelujah" },
+      { "Artist":"Lumineers", "Song":"Ho Hey", "new":true },
       { "Artist":"One Republic", "Song":"Counting Stars" },
       { "Artist":"Plain White Ts", "Song":"Hey There Delilah", "new":true }
     ]
