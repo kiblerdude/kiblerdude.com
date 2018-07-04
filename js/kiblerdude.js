@@ -28,8 +28,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Backstreet Boys", "Song":"I Want It That Way" },
       { "Artist":"Britney Spears", "Song":"One More Time", "new":true  },
       { "Artist":"Cars", "Song":"Drive" },
-      { "Artist":"Chris Isaak", "Song":"Wicked Game", "new":true },
-      { "Artist":"Cutting Crew", "Song":"I Just Died In Your Arms Tonight", "new":true },
+      { "Artist":"Chris Isaak", "Song":"Wicked Game" },
+      { "Artist":"Cutting Crew", "Song":"I Just Died In Your Arms Tonight" },
       { "Artist":"Dead or Alive", "Song":"You Spin Me Right Round" },
       { "Artist":"George Michael", "Song":"Faith" },
       { "Artist":"Inner Circle", "Song":"Sweat" },
@@ -50,7 +50,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Tears For Fears", "Song":"Mad World" },
       { "Artist":"The Cure", "Song":"Love Song" },
       { "Artist":"The Fly", "Song":"Got You Where I Want You" },
-      { "Artist":"Tommy Tutone", "Song":"Jenny 867-5309" }
+      { "Artist":"Tommy Tutone", "Song":"Jenny 867-5309" },
+      { "Artist":"When In Rome", "Song":"I Promise", "new": true }
     ]
   },{
     "Category": "80's Rock",
@@ -108,6 +109,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Sublime", "Song":"What I Got" },
       { "Artist":"The Calling", "Song":"Wherever You Will Go" },
       { "Artist":"The Proclaimers", "Song":"500 Miles" },
+      { "Artist":"The Verve", "Song":"Bittersweet Symphony", "new": true },
       { "Artist":"The Verve Pipe", "Song":"The Freshmen" },
       { "Artist":"Tonic", "Song":"If You Could Only See" },
       { "Artist":"Vertical Horizon", "Song":"Everything You Want" },
@@ -187,7 +189,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Manfred Man", "Song":"Doo Wah Diddy" },
       { "Artist":"Otis Redding", "Song":"Dock of the Bay" },
       { "Artist":"Paul Simon", "Song":"Kodachrome" },
-      { "Artist":"Searchers", "Song":"Love Potion #9" }
+      { "Artist":"Searchers", "Song":"Love Potion #9" },
+      { "Artist":"Van Morrison", "Song":"Brown Eyed Girl", "new": true }
     ]
   },{
     "Category":"Country",
@@ -204,7 +207,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Johnny Cash", "Song":"Folsom Prison Blues" },
       { "Artist":"Johnny Lee", "Song":"Lookin for Love" },
       { "Artist":"Pure Prairie League", "Song":"Amie" },
-      { "Artist":"Tim McGraw", "Song":"I Like it I Love it" }
+      { "Artist":"Tim McGraw", "Song":"I Like it I Love it" },
+      { "Artist":"Zac Brown Band", "Song":"Chicken Fried" }
     ]
   },{
     "Category":"Millennium Rock",
