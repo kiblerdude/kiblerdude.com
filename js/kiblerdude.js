@@ -24,6 +24,7 @@ kiblerdude.controller('SongController', function($scope) {
   $scope.music = [{
     "Category":"80's & 90's",
     "Songs":[
+      { "Artist":"10000 Maniacs", "Song":"Because the Night", "new":true  },
       { "Artist":"Backstreet Boys", "Song":"As Long As You Love Me", "new":true  },
       { "Artist":"Backstreet Boys", "Song":"I Want It That Way" },
       { "Artist":"Britney Spears", "Song":"One More Time", "new":true  },
@@ -85,6 +86,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Goo Goo Dolls", "Song":"Slide" },
       { "Artist":"Greenday", "Song":"Basket Case" },
       { "Artist":"Greenday", "Song":"Good Riddance" },
+      { "Artist":"Harvey Danger", "Song":"Flagpole Sitta", "new":true },
       { "Artist":"Hootie and the Blowfish", "Song":"Let Her Cry" },
       { "Artist":"Incubus", "Song":"Drive" },
       { "Artist":"Linkin Park", "Song":"Numb" },
@@ -92,6 +94,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Marcy Playground", "Song":"Sex and Candy" },
       { "Artist":"Matchbox 20", "Song":"3 a.m." },
       { "Artist":"Matchbox 20", "Song":"Push" },
+      { "Artist":"Matchbox 20", "Song":"Unwell", "new":true },
       { "Artist":"Nirvana", "Song":"All Apologies", "new":true },
       { "Artist":"Nirvana", "Song":"Man Who Sold the World" },
       { "Artist":"Oasis", "Song":"Champagne Supernova" },
@@ -222,6 +225,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Jack Johnson", "Song":"Flake" },
       { "Artist":"Jason Mraz", "Song":"I'm Yours" },
       { "Artist":"Jeff Buckley", "Song":"Hallelujah" },
+      { "Artist":"Kings of Leon", "Song":"Use Somebody", "new":true },
       { "Artist":"Lumineers", "Song":"Ho Hey", "new":true },
       { "Artist":"One Republic", "Song":"Counting Stars" },
       { "Artist":"Plain White Ts", "Song":"Hey There Delilah", "new":true }
