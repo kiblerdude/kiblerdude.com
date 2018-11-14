@@ -24,10 +24,10 @@ kiblerdude.controller('SongController', function($scope) {
   $scope.music = [{
     "Category":"80's & 90's",
     "Songs":[
-      { "Artist":"10000 Maniacs", "Song":"Because the Night", "new":true  },
-      { "Artist":"Backstreet Boys", "Song":"As Long As You Love Me", "new":true  },
+      { "Artist":"10000 Maniacs", "Song":"Because the Night" },
+      { "Artist":"Backstreet Boys", "Song":"As Long As You Love Me" },
       { "Artist":"Backstreet Boys", "Song":"I Want It That Way" },
-      { "Artist":"Britney Spears", "Song":"One More Time", "new":true  },
+      { "Artist":"Britney Spears", "Song":"One More Time" },
       { "Artist":"Cars", "Song":"Drive" },
       { "Artist":"Chris Isaak", "Song":"Wicked Game" },
       { "Artist":"Cutting Crew", "Song":"I Just Died In Your Arms Tonight" },
@@ -41,7 +41,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Paula Abdul", "Song":"Straight Up" },
       { "Artist":"Phil Collins", "Song":"In the Air Tonight" },
       { "Artist":"Ramones", "Song":"I Wanna Be Sedated" },
-      { "Artist":"REM", "Song":"Losing My Religion", "new":true },
+      { "Artist":"REM", "Song":"Losing My Religion" },
       { "Artist":"REM", "Song":"The One I Love" },
       { "Artist":"Richard Marx", "Song":"Right Here Waiting" },
       { "Artist":"Roxette", "Song":"The Look" },
@@ -52,7 +52,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"The Cure", "Song":"Love Song" },
       { "Artist":"The Fly", "Song":"Got You Where I Want You" },
       { "Artist":"Tommy Tutone", "Song":"Jenny 867-5309" },
-      { "Artist":"When In Rome", "Song":"I Promise", "new": true }
+      { "Artist":"Tracy Chapman", "Song":"Gimme One Reason", "new": true },
+      { "Artist":"When In Rome", "Song":"I Promise" }
     ]
   },{
     "Category": "80's Rock",
@@ -78,7 +79,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Bush", "Song":"Glycerine" },
       { "Artist":"Duncan Sheik", "Song":"Barely Breathing" },
       { "Artist":"Eve 6", "Song":"Inside Out" },
-      { "Artist":"Fuel", "Song":"Hemorrhage", "new": true },
+      { "Artist":"Fuel", "Song":"Hemorrhage" },
       { "Artist":"Gavin Rosdale", "Song":"Love Remains The Same" },
       { "Artist":"Gin Blossums", "Song":"Here It From You" },
       { "Artist":"Goo Goo Dolls", "Song":"Black Balloon" },
@@ -86,7 +87,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Goo Goo Dolls", "Song":"Slide" },
       { "Artist":"Greenday", "Song":"Basket Case" },
       { "Artist":"Greenday", "Song":"Good Riddance" },
-      { "Artist":"Harvey Danger", "Song":"Flagpole Sitta", "new":true },
+      { "Artist":"Harvey Danger", "Song":"Flagpole Sitta" },
       { "Artist":"Hootie and the Blowfish", "Song":"Let Her Cry" },
       { "Artist":"Incubus", "Song":"Drive" },
       { "Artist":"Linkin Park", "Song":"Numb" },
@@ -94,8 +95,8 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Marcy Playground", "Song":"Sex and Candy" },
       { "Artist":"Matchbox 20", "Song":"3 a.m." },
       { "Artist":"Matchbox 20", "Song":"Push" },
-      { "Artist":"Matchbox 20", "Song":"Unwell", "new":true },
-      { "Artist":"Nirvana", "Song":"All Apologies", "new":true },
+      { "Artist":"Matchbox 20", "Song":"Unwell" },
+      { "Artist":"Nirvana", "Song":"All Apologies" },
       { "Artist":"Nirvana", "Song":"Man Who Sold the World" },
       { "Artist":"Oasis", "Song":"Champagne Supernova" },
       { "Artist":"Oasis", "Song":"Wonderwall" },
@@ -112,7 +113,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Sublime", "Song":"What I Got" },
       { "Artist":"The Calling", "Song":"Wherever You Will Go" },
       { "Artist":"The Proclaimers", "Song":"500 Miles" },
-      { "Artist":"The Verve", "Song":"Bittersweet Symphony", "new": true },
+      { "Artist":"The Verve", "Song":"Bittersweet Symphony" },
       { "Artist":"The Verve Pipe", "Song":"The Freshmen" },
       { "Artist":"Tonic", "Song":"If You Could Only See" },
       { "Artist":"Vertical Horizon", "Song":"Everything You Want" },
@@ -145,7 +146,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Jimmy Buffet", "Song":"Margaritaville" },
       { "Artist":"Jimmy Buffet", "Song":"Pirate Looks At 40" },
       { "Artist":"Jimmy Buffet", "Song":"Son of a Sailor" },
-      { "Artist":"John Mellencamp", "Song":"Jack and Diane", "new": true },
+      { "Artist":"John Mellencamp", "Song":"Jack and Diane" },
       { "Artist":"John Mellencamp", "Song":"Wild Nights" },
       { "Artist":"Kenny Loggins", "Song":"Dannys Song" },
       { "Artist":"Lynyrd Skynyrd", "Song":"Tuesdays Gone" },
@@ -157,7 +158,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Rolling Stones", "Song":"Sympathy for the Devil" },
       { "Artist":"Stealer's Wheel", "Song":"Stuck In The Middle With You" },
       { "Artist":"Steppenwolf", "Song":"Born to be Wild" },
-      { "Artist":"Supertramp", "Song":"Breakfast in America", "new": true },
+      { "Artist":"Supertramp", "Song":"Breakfast in America" },
       { "Artist":"The Band", "Song":"The Weight" },
       { "Artist":"The Outfield", "Song":"Your Love" },
       { "Artist":"Tom Petty", "Song":"American Girl" },
@@ -183,7 +184,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Dion & The Belmonts", "Song":"Wanderer" },
       { "Artist":"Elvis", "Song":"Hound Dog" },
       { "Artist":"Gary Portney", "Song":"Where Everybody Knows Your Name" },
-      { "Artist":"Gloria Gaynor", "Song":"I Will Survive", "new":true },
+      { "Artist":"Gloria Gaynor", "Song":"I Will Survive" },
       { "Artist":"Grease", "Song":"Greased Lightning" },
       { "Artist":"Hermans Hermits", "Song":"I'm Into Something Good" },
       { "Artist":"James Taylor", "Song":"How Sweet It Is To Be Loved By You" },
@@ -195,7 +196,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Otis Redding", "Song":"Dock of the Bay" },
       { "Artist":"Paul Simon", "Song":"Kodachrome" },
       { "Artist":"Searchers", "Song":"Love Potion #9" },
-      { "Artist":"Van Morrison", "Song":"Brown Eyed Girl", "new": true }
+      { "Artist":"Van Morrison", "Song":"Brown Eyed Girl" }
     ]
   },{
     "Category":"Country",
@@ -207,7 +208,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Garth Brooks", "Song":"The River" },
       { "Artist":"Garth Brooks", "Song":"Wrapped Up In You" },
       { "Artist":"George Strait", "Song":"Carrying Your Love With Me" },
-      { "Artist":"Hank Williams Jr", "Song":"Family Tradition", "new": true },
+      { "Artist":"Hank Williams Jr", "Song":"Family Tradition" },
       { "Artist":"Jamey Johnson", "Song":"In Color" },
       { "Artist":"Johnny Cash", "Song":"Folsom Prison Blues" },
       { "Artist":"Johnny Lee", "Song":"Lookin for Love" },
@@ -229,8 +230,9 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Jeff Buckley", "Song":"Hallelujah" },
       { "Artist":"Kings of Leon", "Song":"Use Somebody", "new":true },
       { "Artist":"Lumineers", "Song":"Ho Hey", "new":true },
+      { "Artist":"Maroon 5", "Song":"This Love", "new":true },
       { "Artist":"One Republic", "Song":"Counting Stars" },
-      { "Artist":"Plain White Ts", "Song":"Hey There Delilah", "new":true }
+      { "Artist":"Plain White Ts", "Song":"Hey There Delilah" }
     ]
   }];
 
