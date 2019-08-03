@@ -43,11 +43,13 @@ body {
 }
 
 body {
+	/*
     background-image: url("https://www.kiblerdude.com/images/bg.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: auto;
+	*/
 }
 
 .cover-container {
