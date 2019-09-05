@@ -112,6 +112,7 @@ kiblerdude.controller('SongController', function($scope) {
       { "Artist":"Smashing Pumpkins", "Song":"Today" },
       { "Artist":"Soul Asylum", "Song":"Runaway Train" },
       { "Artist":"Spin Doctors", "Song":"Two Princes" },
+	  { "Artist":"Stone Sour", "Song":"Through Glass", "new": true },
       { "Artist":"Stone Temple Pilots", "Song":"Plush" },
       { "Artist":"Sublime", "Song":"What I Got" },
       { "Artist":"The Calling", "Song":"Wherever You Will Go" },
@@ -210,6 +211,7 @@ kiblerdude.controller('SongController', function($scope) {
     "Category":"Country",
     "Songs":[
       { "Artist":"Alabama", "Song":"Dixieland Delight" },
+	  { "Artist":"Brad Paisley", "Song":"Im Gonna Miss Her", "new": true },
       { "Artist":"Darius Rucker", "Song":"Wagon Wheel" },
       { "Artist":"David Allen Coe", "Song":"You Don't Even Call Me By My Name" },
       { "Artist":"Garth Brooks", "Song":"That Summer" },
